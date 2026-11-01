@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080e1c">
+  <meta name="description" content="A universe called me. Thoughts, sounds, fragments of me.">
+  <title>A UNIVERSE CALLED ME.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="wordmark" href="#home" aria-label="ホーム"><span class="mark">◉</span> PERSONAL UNIVERSE</a>
+    <nav class="desktop-nav" aria-label="メインナビゲーション">
+      <a href="#profile">PROFILE</a><a href="#universe">UNIVERSE</a><a href="#sound">SOUND</a><a href="#fragments">FRAGMENTS</a>
+    </nav>
+    <button id="editToggle" class="edit-toggle" type="button">EDIT MODE <span>＋</span></button>
+  </header>
+
+  <main id="home">
+    <section class="hero section-shell">
+      <div class="hero-meta"><span data-edit="hero.kicker">AN INDEPENDENT WORLD</span><span>NO. <b data-edit="hero.number">001</b> — PERSONAL LOG</span></div>
+      <div class="hero-copy">
+        <p class="eyebrow" data-edit="hero.eyebrow">WELCOME TO MY WORLD</p>
+        <h1 data-edit="hero.title">A UNIVERSE<br>CALLED ME.</h1>
+        <p class="hero-lead" data-edit="hero.subtitle">好きなものも、考えていることも。<br>ここに少しずつ集めた、私という小さな宇宙。</p>
+        <a class="text-link" href="#profile"><span data-edit="hero.link">SCROLL TO EXPLORE</span><span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="planet-scene" aria-label="宇宙のビジュアル">
+        <div class="planet-glow"></div><div class="planet"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <span class="star star-a">✦</span><span class="star star-b">·</span><span class="star star-c">✧</span>
+        <span class="planet-caption" data-edit="hero.imageCaption">SOMEWHERE IN THE BLUE</span>
+      </div>
+      <div class="hero-foot"><span>PERSONAL SPACE / EST. 2026</span><span>SCROLL TO DISCOVER ↓</span></div>
+    </section>
+
+    <section class="ticker" aria-label="サイトのテーマ"><div class="ticker-track"><span>THOUGHTS</span><i>✦</i><span>SOUNDS</span><i>✦</i><span>SMALL THINGS</span><i>✦</i><span>MY UNIVERSE</span><i>✦</i><span>THOUGHTS</span><i>✦</i><span>SOUNDS</span><i>✦</i><span>SMALL THINGS</span><i>✦</i></div></section>
+
+    <section id="profile" class="content-section section-shell">
+      <div class="section-index"><span>01 / IDENTITY</span><span>PROFILE</span></div>
+      <div class="section-heading"><p class="eyebrow" data-edit="profile.eyebrow">A LITTLE INTRODUCTION</p><h2 data-edit="profile.title">WHO AM I<span>?</span></h2></div>
+      <div class="profile-layout">
+        <div class="portrait-frame">
+          <div class="portrait-placeholder"><span class="portrait-orbit">◌</span><span class="portrait-label" data-edit="profile.imageLabel">A FRAGMENT OF ME</span></div>
+          <p class="image-note" data-edit="profile.imageNote">ここに好きなイラストや写真を置く予定。</p>
+        </div>
+        <div class="profile-text">
+          <p class="jp-lead" data-edit="profile.intro">はじめまして。ここは、私の好きなものや考え方を集めた小さな場所です。</p>
+          <p data-edit="profile.body">音楽を聴いたり、好きな世界観に浸ったり。心に残ったものを、忘れないように少しずつ記録しています。</p>
+          <div class="data-list">
+            <div><span>NAME / 呼び名</span><strong data-edit="profile.name">ここに名前</strong></div>
+            <div><span>LIKES / 好きなもの</span><strong data-edit="profile.likes">音楽、イラスト、幻想的な世界</strong></div>
+            <div><span>CURRENT MOOD / 今の気分</span><strong data-edit="profile.mood">静かな夜と青い光</strong></div>
+          </div>
+          <a class="text-link" href="#universe"><span data-edit="profile.link">もう少し知る</span><span>↘</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="universe" class="content-section section-shell">
+      <div class="section-index"><span>02 / INTERESTS</span><span>MY UNIVERSE</span></div>
+      <div class="section-heading split-heading"><div><p class="eyebrow" data-edit="universe.eyebrow">THINGS THAT MAKE ME, ME</p><h2 data-edit="universe.title">MY LITTLE<br>UNIVERSE.</h2></div><p data-edit="universe.intro">好きなものも、ちょっと苦手なものも。<br>私をつくる小さなかけら。</p></div>
+      <div class="interest-grid">
+        <article class="interest-card card-tall"><span class="card-no">01 / LOVE</span><div class="card-orb orb-blue"></div><div class="card-content"><h3 data-edit="universe.card1.title">好きなもの</h3><p data-edit="universe.card1.body">心がときめくもの、美しいと感じるもの。</p><span class="card-arrow">↗</span></div></article>
+        <article class="interest-card"><span class="card-no">02 / NOT FOR ME</span><div class="card-orb orb-silver"></div><div class="card-content"><h3 data-edit="universe.card2.title">ちょっと苦手</h3><p data-edit="universe.card2.body">自分が心地よく過ごすために、大切にしたいこと。</p><span class="card-arrow">↗</span></div></article>
+        <article class="interest-card"><span class="card-no">03 / VALUES</span><div class="card-orb orb-violet"></div><div class="card-content"><h3 data-edit="universe.card3.title">大切にしていること</h3><p data-edit="universe.card3.body">人との距離感、好きなものへの気持ち、自分らしさ。</p><span class="card-arrow">↗</span></div></article>
+      </div>
+      <p class="section-footnote" data-edit="universe.note">※ 内容は EDIT MODE から自由に変更できます。</p>
+    </section>
+
+    <section id="sound" class="content-section sound-section">
+      <div class="section-shell">
+        <div class="section-index"><span>03 / SOUND ARCHIVE</span><span>NOW PLAYING IN MY MIND</span></div>
+        <div class="section-heading"><p class="eyebrow" data-edit="sound.eyebrow">SOUNDS LIKE A MEMORY</p><h2 data-edit="sound.title">SOUND<br>OF MY WORLD.</h2><p class="section-intro" data-edit="sound.intro">何度も聴きたくなる曲。気分を変えてくれる曲。<br>今の自分にそっと寄り添う音楽の記録。</p></div>
+        <div id="musicList" class="music-list"></div>
+        <p class="section-footnote" data-edit="sound.note">曲名やリンクは編集モードで変更できます。再生リンクは外部サービスで開きます。</p>
+      </div>
+    </section>
+
+    <section id="fragments" class="content-section section-shell">
+      <div class="section-index"><span>04 / COLLECTION</span><span>FRAGMENTS</span></div>
+      <div class="section-heading split-heading"><div><p class="eyebrow" data-edit="fragments.eyebrow">LITTLE THINGS I KEEP</p><h2 data-edit="fragments.title">FRAGMENTS<br>OF ME.</h2></div><p data-edit="fragments.intro">写真、イラスト、色、景色。<br>好きだと思った瞬間を集めて。</p></div>
+      <div id="fragmentGrid" class="fragment-grid"></div>
+      <p class="section-footnote" data-edit="fragments.note">イラストや写真を追加するときは、画像URLを編集データに設定してください。</p>
+    </section>
+
+    <section class="closing section-shell">
+      <span class="closing-kicker" data-edit="closing.kicker">END OF TRANSMISSION / 000</span>
+      <h2 data-edit="closing.title">SOMEWHERE,<br>BEYOND WORDS.</h2>
+      <p data-edit="closing.body">ここは、まだ完成していない私の宇宙。</p>
+      <a href="#home" class="back-top"><span data-edit="closing.link">BACK TO THE BEGINNING</span><span>↑</span></a>
+      <div class="closing-footer"><span>PERSONAL UNIVERSE</span><span>MADE OF SMALL THINGS.</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span data-edit="footer.left">A PERSONAL ARCHIVE</span><span data-edit="footer.right">PRIVATE THOUGHTS, PUBLIC SPACE.</span></footer>
+
+  <div id="editPanel" class="edit-panel" hidden>
+    <div class="edit-panel-head"><div><p class="eyebrow">CUSTOMIZE YOUR UNIVERSE</p><h2>サイトを編集する</h2></div><button id="closeEdit" class="icon-button" aria-label="閉じる">×</button></div>
+    <p class="edit-help">「編集する」を押して文字を直接変更できます。保存データをダウンロードしておくと、別の端末や更新後にも反映できます。</p>
+    <div class="edit-actions"><button id="enableInline" class="primary-button">文字を直接編集</button><button id="saveLocal" class="secondary-button">この端末に保存</button></div>
+    <div class="edit-actions"><button id="exportData" class="secondary-button">編集データをダウンロード</button><label class="file-button">編集データを読み込む<input id="importData" type="file" accept="application/json"></label></div>
+    <div class="edit-actions"><button id="addMusic" class="secondary-button">＋ 音楽を追加</button><button id="addFragment" class="secondary-button">＋ 画像カードを追加</button></div>
+    <p id="editStatus" class="edit-status" role="status">編集内容はブラウザに保存できます。</p>
+    <details class="github-note"><summary>GitHub Pagesで公開する場合</summary><p>この編集機能の「この端末に保存」は、自分のブラウザ内だけに保存します。公開サイトを見ている全員へ反映するには、編集データをダウンロードし、GitHubリポジトリ内の <code>site-data.json</code> を差し替えてコミットしてください。GitHub Pagesだけでは、サイト上から直接公開データを書き換えることはできません。</p></details>
+  </div>
+  <div id="panelBackdrop" class="panel-backdrop" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>

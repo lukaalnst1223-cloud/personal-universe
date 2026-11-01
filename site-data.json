@@ -1,0 +1,48 @@
+{
+  "music": [
+    {
+      "tag": "MIDNIGHT / 001",
+      "title": "お気に入りの曲 01",
+      "artist": "アーティスト名",
+      "note": "夜に聴きたくなる、大切な一曲。",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "tag": "DREAMLIKE / 002",
+      "title": "お気に入りの曲 02",
+      "artist": "アーティスト名",
+      "note": "世界観に浸りたいときの音楽。",
+      "url": "https://open.spotify.com/"
+    },
+    {
+      "tag": "ON REPEAT / 003",
+      "title": "お気に入りの曲 03",
+      "artist": "アーティスト名",
+      "note": "何度でも聴きたくなる曲。",
+      "url": "https://www.youtube.com/"
+    }
+  ],
+  "fragments": [
+    {
+      "symbol": "✦",
+      "title": "青い光",
+      "caption": "COLOR / 001",
+      "note": "好きな色や雰囲気のメモ。",
+      "image": ""
+    },
+    {
+      "symbol": "◌",
+      "title": "好きな景色",
+      "caption": "SCENE / 002",
+      "note": "心に残しておきたい景色。",
+      "image": ""
+    },
+    {
+      "symbol": "✧",
+      "title": "小さな記録",
+      "caption": "MEMORY / 003",
+      "note": "好きなものを少しずつ。",
+      "image": ""
+    }
+  ]
+}
